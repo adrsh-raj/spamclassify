@@ -39,10 +39,10 @@ def transform_text(text):
 
 
 
-tfidf = pickle.load(open('/home/kali/Documents/coding/python/ml_projects/spam/vect.pkl', 'rb'))
+tfidf = pickle.load(open('vect.pkl', 'rb'))
 
 
-model = pickle.load(open('/home/kali/Documents/coding/python/ml_projects/spam/mnb.pkl', 'rb'))
+model = pickle.load(open('mnb.pkl', 'rb'))
 
 
 st.title("SMS/EMAIL CLASSIFIER")
